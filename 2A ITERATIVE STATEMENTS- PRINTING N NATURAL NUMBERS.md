@@ -4,34 +4,23 @@
 ###  Aim
 To create a Python program for printing `n` natural numbers using a `for` loop.
 
----
-
 ###  Algorithm
+1.Start
+2.Read an integer input n from the user.
+3.Print a message: "Natural Numbers are :".
+4.Use a for loop from 1 to n:
+5.In each iteration, print the current number.
+6.End
 
-1. Begin the program.
-2. Use `input()` to read the value of `n` (the upper limit) from the user.
-3. Convert the input to an integer.
-4. Display the message **"Natural Numbers are :"**.
-5. Use a `for` loop to iterate from 1 to `n` (inclusive).
-6. In each iteration, print the current value of `i`.
-7. Terminate the program.
+###  Program
+n=int(input())
 
----
+print("Natural Numbers are :")
+for i in range(1,n+1):
+    print(i)
 
-### 🧾 Program
-
-```python
-#Reg.NO
-#Name
-#Write your Code here
-
-```
 ### OUTPUT
-```
+![image](https://github.com/user-attachments/assets/327a52fd-ed17-4c92-9305-34989c31ed05)
 
-```
 ### RESULT
-```
-
-```
-
+Thus,Python program for printing `n` natural numbers using a `for` loop was implemented and successfully executed.
